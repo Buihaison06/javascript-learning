@@ -1,2 +1,6 @@
-console.log("Hello World!");
-console.log("Toi dang hoc JavaScript");
+const name = "Son";
+const age = 20;
+function greet(name) {
+  console.log("Hello " + name);
+}
+greet(name);
