@@ -5,7 +5,6 @@ let students = [
   { id: "SV04", name: "Bình", age: 16, score: 4.5 },
   { id: "SV05", name: "Minh", age: 22, score: 7.5 },
 ];
-
 function showStudents(sv, index) {
   console.log(
     index +
@@ -21,7 +20,6 @@ function showStudents(sv, index) {
       " điểm",
   );
 }
-
 function addStudents(students, id, name, age, score) {
   let check = checkTrung(students, id);
   if (check === true) {
@@ -37,7 +35,6 @@ function addStudents(students, id, name, age, score) {
     console.log("Thêm thành công");
   }
 }
-
 function checkTrung(sv, id) {
   let x = sv.some((sv) => sv.id === id);
   return x;

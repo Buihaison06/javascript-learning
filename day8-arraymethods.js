@@ -37,7 +37,6 @@ function listStudents(students) {
     );
   });
 }
-
 console.log("======Danh Sách Sinh Viên======");
 students.forEach((sv) =>
   console.log(
