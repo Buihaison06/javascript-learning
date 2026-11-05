@@ -1,6 +1,5 @@
-const name = "Son";
-const age = 20;
-function greet(name) {
-  console.log("Hello " + name);
-}
-greet(name);
+// JavaScript Learning Journey
+
+console.log("Welcome to my JavaScript Learning Journey!");
+console.log("Repository: javascript-learning");
+console.log("Author: Bui Hai Son");
