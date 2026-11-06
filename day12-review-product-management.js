@@ -126,7 +126,7 @@ const statistics = {
 //11.Dùng filter() tìm tất cả sản phẩm còn hàng (quantity > 0).
 let x = products.filter((pr) => pr.quantity > 0);
 
-//12.Dùng map() tạo mảng mới chỉ chứa name và price của từng sản phẩm.
+//12.Dùng map() tạo mảng mới chỉ chứa name và price của từng sản phẩm
 let y = products.map((pr) => {
   return {
     name: pr.name,
