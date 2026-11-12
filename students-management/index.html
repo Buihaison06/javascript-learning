@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Management System</title>
+  </head>
+  <body>
+    <h1 id="title">Quản lý sinh viên</h1>
+    <p id="description">Danh sách sinh viên</p>
+
+    <hr />
+
+    <h2>Thêm sinh viên</h2>
+
+    <div>
+      <input type="text" id="txtId" placeholder="Nhập mã sinh viên" />
+      <input type="text" id="txtName" placeholder="Nhập tên sinh viên" />
+      <input type="number" id="txtAge" placeholder="Nhập tuổi" />
+      <input type="number" id="txtScore" placeholder="Nhập điểm" />
+
+      <button id="btnAdd">Thêm sinh viên</button>
+    </div>
+
+    <hr />
+
+    <h2>Danh sách sinh viên</h2>
+
+    <input type="text" id="txtSearch" placeholder="Tìm theo mã hoặc tên" />
+
+    <div>
+      <button id="btnAll">Tất cả</button>
+      <button id="btnPass">Sinh viên đạt</button>
+      <button id="btnFail">Sinh viên chưa đạt</button>
+    </div>
+
+    <ul id="studentList">
+      <!-- Danh sách sinh viên sẽ được tạo bằng JavaScript -->
+    </ul>
+
+    <hr />
+
+    <h2>Thống kê</h2>
+
+    <div id="statistics">
+      <!-- Thông tin thống kê sẽ được tạo bằng JavaScript -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
